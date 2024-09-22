@@ -1,0 +1,1 @@
+let heading = document.querySelector("#page1-content")
