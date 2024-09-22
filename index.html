@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REJOUICE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
     <div id="main">
 
-        <!-- custom cursor -->
-         <div id="cursorMover">
-            <h5>Play Reel</h5>
-         </div>
-
-        <!-- landing page -->
-        <div id="page1">
-            <video autoplay loop muted src="./assets/landingPageVideo.mp4"></video>
-            <div id="page1-content">
-                <nav>
-                    <h3>The Venture Agency.</h3>
-                    <h4>Menu</h4>
-                </nav>
-                <h1>
-                    <span>r</span><span>e</span><span>j</span><span>o</span><span>u</span><span>i</span><span>c</span><span>e</span>
-                </h1>
-            </div>
+      <!-- landing page -->
+      <div id="page1">
+        <video autoplay loop muted src="./assets/landingPageVideo.mp4"></video>
+        <div id="page1-content">
+          <nav>
+            <h3>The Venture Agency.</h3>
+            <h4>Menu</h4>
+          </nav>
+          <h1>
+            <span>r</span><span>e</span><span>j</span><span>o</span
+            ><span>u</span><span>i</span><span>c</span><span>e</span>
+          </h1>
         </div>
-        
+      </div>
+
+      <div id="page2">
+        <div id="nav">
+            <p>Tomorrow's Brands, Today <sup style="font-size: 0.8vw;">TM</sup></p>
+            <p>Paris / San Diego</p>
+        </div>
+        <div id="line"></div>
+        <div id="page2-content">
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a venture firm and digital agency. Our mission is to transform founders' visions into remarkable brands. Choose traditional compensation or an equity offset through our Venture Model — your vision, your decision.</h3>
+        </div>
+      </div>
+
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
