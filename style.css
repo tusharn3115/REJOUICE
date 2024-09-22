@@ -107,9 +107,10 @@ nav h4{
 }
 
 #page2-content h3{
-    margin: 20px 90px;
+    margin: 40px 85px;
     font-size: 65px;
     font-family: nb;
     font-weight: 400;
     user-select: none;
+    line-height: 40px;
 }

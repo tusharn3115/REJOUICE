@@ -38,7 +38,7 @@ function page2animation(){
         }
     })
     
-    gsap.from("#page2 #page2-content", {
+    gsap.from("#page2-content h3", {
         y:120,
         duration:1,
         opacity:0,
