@@ -54,3 +54,25 @@ function page2animation(){
     })
 }
 page2animation();
+
+
+
+// page 3 video play on hover
+const videos = document.querySelectorAll('#page3-elements .box video');
+
+videos.forEach(video => {
+  video.addEventListener('mouseenter', () => {
+    video.play();
+  });
+  
+  video.addEventListener('mouseleave', () => {
+    video.pause();
+    video.currentTime = 0;
+  });
+});
+
+
+//  page 3 animation
+function page3animation(){
+
+}
