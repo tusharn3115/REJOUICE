@@ -76,3 +76,40 @@ videos.forEach(video => {
 function page3animation(){
 
 }
+
+
+
+
+// page 4 animation
+function page4animation(){
+    gsap.from("#page4 #page4-top", {
+        y:60,
+        duration:0.5,
+        opacity:0,
+        stagger:0.25,
+        scrollTrigger:{
+            trigger:"#page4",
+            scroller:"#main",
+            // markers:true,
+            start:"top 40%",
+            end:"top 37",
+            scrub:2,
+        }
+    })
+    
+    gsap.from("#page4-content h3", {
+        y:120,
+        duration:1,
+        opacity:0,
+        stagger:0.25,
+        scrollTrigger:{
+            trigger:"#page4",
+            scroller:"#main",
+            // markers:true,
+            start:"top 47%",
+            end:"top 37%",
+            scrub:2,
+        }
+    })
+}
+page4animation();
