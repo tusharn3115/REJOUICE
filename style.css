@@ -221,3 +221,26 @@ nav h4{
     user-select: none;
     line-height: 40px;
 }
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    padding: 4vw 0;
+    position: relative;
+}
+
+#page5-top h1{
+    font-size: 10vw;
+    font-family: rj;
+    font-weight: 100;
+    border-bottom: 1px solid #111;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#swiperdiv{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    
+}
