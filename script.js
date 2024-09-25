@@ -80,6 +80,7 @@ function page3animation(){
 
 
 
+
 // page 4 animation
 function page4animation(){
     gsap.from("#page4 #page4-top", {
@@ -113,3 +114,17 @@ function page4animation(){
     })
 }
 page4animation();
+
+
+// swiper js
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 0, // No delay between slide transitions
+        disableOnInteraction: true, // Keeps autoplay running even after interaction
+    },
+    speed: 35000, // Slow, smooth speed for continuous movement (in milliseconds)
+    allowTouchMove: false, // Optional: Disable manual sliding for a pure autoplay effect
+});

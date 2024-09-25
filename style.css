@@ -133,6 +133,7 @@ nav h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 #page3-text p{
@@ -159,7 +160,19 @@ nav h4{
 #page3-top h2{
     font-size: 4.5vw;
     font-weight: 500;
+    cursor: pointer;
 }
+
+#page3-top .underline {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 5px;
+    height: 2px;
+    width: 45%;
+    background-color: black;
+    transform-origin: right;
+    /* transform: scaleX(0); */
+  }
 
 #page3-elements{
     height: 75vh;
@@ -242,5 +255,31 @@ nav h4{
     height: 60vh;
     width: 100%;
     position: relative;
-    
+    margin-top: -5%;
 }
+
+.swiper {
+    width: 130%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
