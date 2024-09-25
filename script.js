@@ -11,8 +11,8 @@ time.from("#page1-content nav", {
 
 time.from(".heading h1", {
     y:80,
-    duration:0.5,
-    delay:0.3,
+    duration:0.8,
+    delay:1,
     opacity:0,
     stagger:0.1,
     ease: "circ",
@@ -128,3 +128,30 @@ var swiper = new Swiper(".mySwiper", {
     speed: 35000, // Slow, smooth speed for continuous movement (in milliseconds)
     allowTouchMove: false, // Optional: Disable manual sliding for a pure autoplay effect
 });
+
+
+
+
+// loader
+var tl = gsap.timeline()
+tl.from("#loader h3", {
+    x:60,
+    opacity:0,
+    duration:1,
+    stagger:0.1,
+})
+
+tl.to("#loader h3", {
+    opacity:0,
+    duration:0.5,
+    x:-30,
+    stagger:0.1,
+})
+
+tl.to("#loader", {
+    opacity:0,
+})
+
+tl.to("#loader", {
+    display:"none",
+})
